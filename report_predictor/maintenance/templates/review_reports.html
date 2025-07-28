@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports Pending Review</title>
+    <!-- Bootstrap CSS -->
+    {% load static %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <style>
+        /* Set background image for the whole body */
+        body {
+            background-image: url("{% static 'maintenance/images/background_image2.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: #333;  /* Text color for readability */
+        }
+
+        /* Styling for the reports container */
+        .reports-container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .alert-success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .compliant {
+            color: green;
+        }
+
+        .non-compliant {
+            color: red;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+
+        ul li:hover {
+            background-color: #f1f1f1;
+        }
+
+        ul li a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        ul li a:hover {
+            color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container py-5 reports-container">
+        <h2>Reports Pending Review</h2>
+
+        {% if messages %}
+            <div class="alert alert-success">
+                {% for message in messages %}
+                    <p>{{ message }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        <ul>
+            {% for review in pending_reviews %}
+                <li>
+                    <a href="{% url 'review_report' review.id %}" class="{% if review.predicted_result == 'Compliant' %}compliant{% else %}non-compliant{% endif %}">
+                        {{ review.sentence }} - {{ review.predicted_result }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Bootstrap JS & dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

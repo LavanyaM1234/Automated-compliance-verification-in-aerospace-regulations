@@ -1,0 +1,16 @@
+Report ID: 20005
+Aircraft Registration Number: N20005E
+Aircraft Model: Boeing 767
+Operator: SkyFly Airlines
+Date of Report: 31/01/2025
+Flight Hours Since Last Inspection: 300
+Maintenance Type: Routine
+
+Maintenance Report Summary (Input for Compliance Model):
+
+Summary: During a routine check, the flight crew noticed that their manuals did not contain a planned escape route for an emergency over high terrain. The airline was informed, and the manuals were updated to include the necessary information.
+
+Additionally, the aircraft’s navigation system was checked because the First Officer did not load a new route correctly during the flight. The system was tested, and the crew was given extra training on how to use it properly.
+
+All systems were reviewed, and no major issues were found. The aircraft was cleared for flight.
+

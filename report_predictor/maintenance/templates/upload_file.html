@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Automated Compliance Detection</title>
+        <style>
+            /* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.regulation-details {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.result-status.Non-Compliant {
+    color: red;
+}
+
+.result-status.Compliant {
+    color: green;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #00b0ff, #ff80ab);
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* File Upload Form */
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.upload-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.upload-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Results Section */
+.results-container {
+    margin-top: 30px;
+}
+
+.results-container h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.results-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.result-item {
+    background-color: #f9f9f9;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.result-item:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-5px);
+}
+
+.result-item strong {
+    font-weight: bold;
+}
+
+.result-status {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.result-status.Compliant {
+    color: #28a745; /* Green for compliant */
+}
+
+.result-status.Non-Compliant {
+    color: #dc3545; /* Red for non-compliant */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .upload-form button {
+        width: 100%;
+    }
+
+    .result-item {
+        padding: 12px;
+    }
+}
+
+        </style>
+    </head>
+    
+
+<body>
+
+    <div class="container">
+        <h1>Automated Compliance Detection</h1>
+        <p>Upload a maintenance report to check for compliance violations</p>
+    
+        <!-- File Upload Form -->
+        <form method="post" enctype="multipart/form-data" class="upload-form">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="submit-btn">Upload File</button>
+        </form>
+    
+        <!-- Display Classification Results -->
+        {% if results %}
+            <div class="results-container">
+                <h2>Classification Results:</h2>
+                <ul class="results-list">
+                    {% for result in results %}
+                        <li class="result-item">
+                            <strong>{{ result.sentence }}:</strong> 
+                            <span class="result-status {{ result.result }}">{{ result.result }}</span>
+                            {% if result.result == 'Non-Compliant' %}
+                                <div class="regulation-details">
+                                    <p><strong>Most Similar Regulation:</strong> {{ result.regulation_title }}</p>
+                                    <p><strong>Regulation Number:</strong> {{ result.regulation_number }}</p>
+                                    <!-- <p><strong>Similarity Score:</strong> {{ result.similarity_score }}</p> -->
+                                    <p><strong>Regulation Details:</strong> {{ result.regulation_details }}</p>
+                                </div>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    </div>
+    
+
+</body>
+</html>

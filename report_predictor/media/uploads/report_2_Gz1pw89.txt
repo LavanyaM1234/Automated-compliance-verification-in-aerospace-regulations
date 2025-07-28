@@ -1,0 +1,17 @@
+Report ID: 20004
+Aircraft Registration Number: N20004D
+Aircraft Model: Boeing 767
+Operator: Global Airways
+Date of Report: 31/01/2025
+Flight Hours Since Last Inspection: 300
+Maintenance Type: Major
+
+Maintenance Report Summary (Input for Compliance Model):
+
+Summary: The flight crew of a Boeing 767 discovered en route that there was no pre-planned escape route in their manuals for loss of pressurization over high terrain in South America. This raised serious safety concerns, prompting the crew to coordinate with air traffic control for an alternative route in case of emergency.
+
+Additionally, the aircraft experienced an issue with its flight management system (FMS). The Captain reported that when the clearance was sent to the FMS with a new routing, the First Officer (FO) was unaware of the "LOAD FMC" prompt, causing the new routing not to be loaded. This led to a temporary track heading deviation before corrections were made.
+
+Upon return, the aircraft underwent a full systems check, including verification of the FMS software functionality and navigation data updates. A review of the airline’s procedures for high-terrain escape routes was also initiated to ensure that such critical information is available in future flight manuals.
+
+After thorough inspections and procedural updates, the aircraft was deemed compliant and cleared for continued operation.

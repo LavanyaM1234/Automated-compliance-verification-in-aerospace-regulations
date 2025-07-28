@@ -1,0 +1,16 @@
+Report Metadata:
+Report ID: 20001
+Aircraft Registration Number: N20001A
+Aircraft Model: Boeing 737
+Operator: SkyFly Airlines
+Date of Report: 30/01/2025
+Flight Hours Since Last Inspection: 200
+Maintenance Type: Routine
+
+Maintenance Report Summary (Input for Compliance Model):
+
+Summary: The aircraft was brought in for routine maintenance and a general inspection. The main focus was on the landing gear, hydraulic system, and engine performance. The landing gear was examined for wear and tear, and minor surface cracks were found on one of the wheels. As a precaution, the wheel was replaced. The hydraulic fluid levels were checked and found to be slightly low, so additional fluid was added to meet the required levels.
+
+The engine underwent standard checks, including an oil level assessment and a visual inspection of the fan blades. No abnormalities were found in the engine, and all operational tests were successfully completed. The avionics system was also checked for any software or hardware issues, and no faults were detected. After all maintenance tasks were completed, the aircraft underwent a ground run-up test to verify proper functionality. No further issues were found, and the aircraft was cleared for operation.
+
+ 

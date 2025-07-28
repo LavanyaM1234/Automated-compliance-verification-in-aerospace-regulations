@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Results</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Classification Results</h1>
+        
+        <!-- Loop through the results -->
+        <div class="row">
+            {% for result in results %}
+                <div class="col-md-6 mb-4">
+                    <!-- Individual Result Card -->
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <!-- Status Badge -->
+                            <h5 class="card-title">
+                                {% if result.result == 'Non-Compliant' %}
+                                    <span class="badge bg-danger">Non-Compliant</span>
+                                {% else %}
+                                    <span class="badge bg-success">Compliant</span>
+                                {% endif %}
+                            </h5>
+                            
+                            <!-- Sentence or Statement -->
+                            <p class="card-text"><strong>{{ result.sentence }}</strong></p>
+                            
+                            {% if result.result == 'Non-Compliant' %}
+                                <hr>
+                                <!-- Regulation Details -->
+                                <h6>Most Similar Regulation:</h6>
+                                <p><strong>{{ result.regulation_title }}</strong></p>
+                                <p><strong>Regulation Number:</strong> {{ result.regulation_number }}</p>
+                                <p><strong>Regulation Details:</strong> {{ result.regulation_details }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle (Includes Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

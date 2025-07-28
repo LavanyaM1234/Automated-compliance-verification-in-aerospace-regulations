@@ -1,0 +1,221 @@
+*{
+    background-color: #DFF2EB;
+    height:100%;
+    width:100%;
+}
+
+.main{
+    border :1px white solid;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    object-fit: contain;
+}
+
+@font-face {
+    font-family: 'TheFont';
+    src: url("https://garet.typeforward.com/assets/fonts/shared/TFMixVF.woff2") format('woff2');
+    font-weight: 100 900; /* Declare font-weight range */
+}
+
+name.breathe-animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 45px;
+}
+
+.breathe-animation span {
+    font-family: 'TheFont', sans-serif;
+    font-size: clamp(40px, 45px, 50px);
+    color: rgb(3, 1, 1);
+    text-align: center;
+    animation: letter-breathe 3s ease-in-out infinite;
+}
+
+@keyframes letter-breathe {
+    0%, 100% {
+        font-weight: 100; /* Use font-weight instead of font-variation-settings */
+    }
+    50% {
+        font-weight: 900;
+    }
+}
+
+/* Center the text description */
+.desc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; /* To stack the elements vertically */
+    align-items: center; /* Centering horizontally */
+}
+
+.name {
+    margin-top: 200px; /* Adjust to position the text appropriately */
+    text-align: center; /* Ensure the text is centered inside */
+    width: 80%; /* To ensure the text does not stretch too wide */
+    max-width: 800px; /* Set a max width to prevent excessive stretching */
+}
+
+.name p {
+    color: rgb(11, 7, 7);
+    padding: 20px;
+    margin: 0; /* Remove any extra space around the text */
+    font-size: 16px; /* Adjust text size */
+    height: 150px;
+}
+
+
+.carousel-inner{
+    width: 700px;
+}
+
+
+/* Button Styling */
+.get-started {
+    background-color: #7AB2D3; /* Initial button color */
+    color: rgb(18, 9, 6);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 60px;
+    
+    transition: background-color 0.7s, color 0.7s;
+}
+
+.get-started:hover {
+    background-color: #4A628A !important; /* Change to the specified color */
+    color: white !important;
+    border : 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.7s, color 0.7s border 0.7s;
+}
+
+.custom-navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 50px; /* Adjust overall height */
+}
+
+.navbar-nav .nav-link {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+
+
+.container-fluid{
+    color:black;
+    background-color: #4A628A;
+    align-items: center;
+}
+
+
+.navbar navbar-expand-lg custom-navbar{
+    background-color: #4A628A;
+}
+/* Style the navbar container */
+.custom-navbar {
+    background-color: #4A628A;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Ensures space between logo and links */
+    align-items: center; /* Vertically aligns the content in the navbar */
+}
+
+/* Adjust the Get Started button inside the navbar */
+.navbar-nav .get-started {
+    background-color: #7AB2D3;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.5s ease;
+    display: flex;
+    align-items: center; /* Centers the button text vertically */
+    justify-content: center; /* Centers horizontally */
+    margin-left: auto; /* Pushes the button to the far right */
+    height: 50px;
+}
+
+/* Get Started button hover effect */
+.navbar-nav .get-started:hover {
+    background-color: #4A628A;
+    color: white;
+    border:1px solid white;
+    transition: background-color 0.7s color 0.7s border 0.7s;
+}
+
+
+.custom-navbar .navbar-brand img {
+    height: 50px;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+
+
+
+.navbar-brand span {
+    font-family: 'Poppins', sans-serif; /* Change to your preferred font */
+    font-size: 18px; /* Adjust size */
+    font-weight: bold;
+}
+
+
+
+.navbar-brand span {
+    font-family: 'Poppins', sans-serif; /* Change to any font you prefer */
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.custom-navbar {
+    background-color: #4A628A !important; /* Your desired color */
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.navbar-toggler {
+    background-color: #4A628A !important; /* Same color for toggler */
+}
+
+.navbar-collapse {
+    background-color: #4A628A !important; /* Ensures dropdown background matches */
+}
+
+.about-section {
+    max-width: 100%;
+    padding: 60px 0; /* Adjust top and bottom padding */
+}
+
+.about-section h2 {
+    font-size: 36px; /* Adjust title size */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.about-section p {
+    font-size: 18px; /* Adjust paragraph size */
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 15px; /* Proper spacing */
+}
+
+.display-5.fw-bold { 
+    font-size: 1rem; /* Adjust size (default is ~3rem for display-5) */
+    font-weight: 700; /* Keeps it bold */
+    color: #333; /* Change text color */
+    text-align: center; /* Center the heading */
+    margin-bottom: 0px; /* Reduce bottom space */
+}

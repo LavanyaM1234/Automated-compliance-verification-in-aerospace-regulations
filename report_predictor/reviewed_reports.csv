@@ -1,0 +1,12 @@
+report_id,sentence,predicted_result,review_result,reviewer_comments,reviewed
+70,6) The aircraft was cleared for flight.,Compliant,Non-Compliant,None,True
+69,"2) The airline was informed, and the manuals were updated to include the necessary information.",Compliant,Compliant,,True
+69,"5) All systems were reviewed, and no major issues were found.",Compliant,Non-Compliant,None,True
+69,6) The aircraft was cleared for flight.,Compliant,Non-Compliant,None,True
+70,"1) During a routine check, the flight crew noticed that their manuals did not contain a planned escape route for an emergency over high terrain.",Non-Compliant,Compliant,None,True
+72,6) The aircraft was cleared for flight.,Compliant,Compliant,None,True
+70,"2) The airline was informed, and the manuals were updated to include the necessary information.",Compliant,Compliant,None,True
+70,3) The aircraft’s navigation system was checked because the First Officer did not load a new route correctly during the flight.,Non-Compliant,Compliant,None,True
+69,"2) The airline was informed, and the manuals were updated to include the necessary information.",Compliant,Compliant,None,True
+69,"2) The airline was informed, and the manuals were updated to include the necessary information.",Compliant,Non-Compliant,None,True
+69,"4) The system was tested, and the crew was given extra training on how to use it properly.",Compliant,Compliant,None,True

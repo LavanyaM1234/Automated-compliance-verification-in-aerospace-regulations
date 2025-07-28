@@ -1,0 +1,13 @@
+Report Metadata:
+Report ID: 20006
+Aircraft Registration Number: N20006F
+Aircraft Model: Gulfstream GIV
+Operator: AeroJet Private
+Date of Report: 30/01/2025
+Flight Hours Since Last Inspection: 250
+Maintenance Type: Minor
+
+Maintenance Report Summary (Input for Compliance Model):
+
+Summary: After takeoff, the right engine’s THRUST REVERSER UNLOCK light turned on. The crew followed the emergency checklist, declared an emergency, and returned to the departure airport safely. During maintenance, the thrust reverser system was inspected. A faulty sensor was identified as the cause of the issue. The sensor was replaced, and system tests confirmed that the light no longer appeared. After all checks were completed, the aircraft was cleared for service.
+

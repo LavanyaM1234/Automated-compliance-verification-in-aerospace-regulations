@@ -1,0 +1,12 @@
+1. Report Metadata
+
+Report ID: 12345
+Aircraft Registration Number: N12345A
+Aircraft Model: Boeing 737
+Operator: SkyAirlines
+Date of Report: 29/01/2025
+Flight Hours Since Last Inspection: 150
+Maintenance Type: Routine
+
+Summary:
+The aircraft underwent a routine maintenance check, focusing on the engine and hydraulic systems. The engine oil levels were found to be below the recommended threshold, and a leak was detected in the hydraulic lines near the wing root. The hydraulic fluid was topped up, and the leaking hose was replaced. The aircraft was cleared for flight with no further issues.

@@ -1,0 +1,10 @@
+Report ID: 20006
+Aircraft Registration Number: N20006F
+Aircraft Model: Airbus A320
+Operator: AeroLink Airlines
+Date of Report: 31/01/2025
+Flight Hours Since Last Inspection: 250
+Maintenance Type: Routine
+
+Maintenance Report Summary (Input for Compliance Model):
+Summary: During a routine check, it was discovered that the aircraft’s emergency exit lighting system was not functioning properly, which could impact passenger evacuation in case of an emergency. The issue was reported, and the faulty lights were replaced immediately.Additionally, a scheduled engine inspection revealed minor oil leakage in the left engine. The leak was within acceptable limits but was fixed as a precaution.The aircraft’s avionics were also reviewed after a minor discrepancy was noticed in the autopilot system response. The system was recalibrated, and post-maintenance tests confirmed proper operation.All necessary corrective actions were completed, and the aircraft was cleared for flight.

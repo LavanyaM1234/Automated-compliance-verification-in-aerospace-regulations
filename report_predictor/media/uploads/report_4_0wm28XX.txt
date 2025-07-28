@@ -1,0 +1,18 @@
+Report ID: 20007
+Aircraft Registration Number: N20007G
+Aircraft Model: Boeing 737
+Operator: SkyLink Airways
+Date of Report: 03/02/2025
+Flight Hours Since Last Inspection: 310
+Maintenance Type: Routine
+
+Maintenance Report Summary (Input for Compliance Model):
+Summary:
+
+1) During a routine pre-flight inspection, the crew identified that the aircraft's fire extinguisher location chart in the cockpit was outdated.
+2) The airline was informed, and the chart was updated to reflect the correct locations.
+3) The exceedance occurred during descent when the flight crew failed to properly manage the aircraft’s speed.
+4) The indicator was recalibrated, and the fuel system was inspected for any anomalies.
+5) A full operational test was conducted, confirming that all systems were functioning correctly.
+The aircraft was cleared for flight.
+6) ATC issued a speed reduction instruction, but the crew did not respond in a timely manner.

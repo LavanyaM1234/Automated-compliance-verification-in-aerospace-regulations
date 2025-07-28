@@ -1,0 +1,101 @@
+*{
+    background-color: #A28089;
+    height:100%;
+    width:100%;
+}
+
+.main{
+    border :1px white solid;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    object-fit: contain;
+}
+
+@font-face {
+    font-family: 'TheFont';
+    src: url("https://garet.typeforward.com/assets/fonts/shared/TFMixVF.woff2") format('woff2');
+    font-weight: 100 900; /* Declare font-weight range */
+}
+
+name.breathe-animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 45px;
+}
+
+.breathe-animation span {
+    font-family: 'TheFont', sans-serif;
+    font-size: clamp(40px, 45px, 50px);
+    color: white;
+    text-align: center;
+    animation: letter-breathe 3s ease-in-out infinite;
+}
+
+@keyframes letter-breathe {
+    0%, 100% {
+        font-weight: 100; /* Use font-weight instead of font-variation-settings */
+    }
+    50% {
+        font-weight: 900;
+    }
+}
+
+/* Center the text description */
+.desc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; /* To stack the elements vertically */
+    align-items: center; /* Centering horizontally */
+}
+
+.name {
+    margin-top: 200px; /* Adjust to position the text appropriately */
+    text-align: center; /* Ensure the text is centered inside */
+    width: 80%; /* To ensure the text does not stretch too wide */
+    max-width: 800px; /* Set a max width to prevent excessive stretching */
+}
+
+.name p {
+    color: white;
+    padding: 20px;
+    margin: 0; /* Remove any extra space around the text */
+    font-size: 16px; /* Adjust text size */
+    height: 150px;
+}
+
+
+.carousel-inner{
+    width: 700px;
+}
+
+
+/* Button Styling */
+.get-started {
+    background-color: #007bff; /* Bootstrap blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 40px;
+
+}
+
+.get-started:hover {
+    background-color: white;
+    color: #A28089;
+    cursor: pointer;
+    transition: background-color 0.7s, color 0.7s;
+}
+
+
+
+

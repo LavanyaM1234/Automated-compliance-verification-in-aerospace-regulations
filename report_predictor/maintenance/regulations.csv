@@ -1,0 +1,105 @@
+Regulation number,Regulation Title,Regulation details
+14 CFR 91.123,Compliance with ATC Clearances and Instructions,Pilots must comply with ATC clearances unless amended or emergency conditions exist
+14 CFR 107.51,Operating Limitations for Small Unmanned Aircraft,Drones must not exceed 400 feet AGL and must not interfere with manned aircraft.
+14 CFR 91.13(a),Careless or Reckless Operation,"Aircraft must be operated safely, and pilots must rely on backup instruments in case of system failure."
+14 CFR 91.213,Inoperative Instruments and Equipment,Pilots must ensure required instruments function properly for flight safety.
+14 CFR 121.557,Emergency Authority of Pilot in Command,Pilots must take necessary actions to ensure safety during turbulence events.
+14 CFR 25.841,Pressurization,Aircraft must have functional cabin altitude warning systems.
+14 CFR 91.129,Operations in Class D Airspace,Controllers must ensure safe sequencing of traffic to prevent runway incursions.
+14 CFR 121.565,Engine Inoperative: Landing Considerations,Pilots must follow emergency procedures and land at the nearest suitable airport.
+14 CFR 91.123,Compliance with ATC Clearances,Pilots must follow ATC instructions unless an emergency requires deviation.
+14 CFR 91.123,Compliance with ATC Clearances,Pilots must seek clarification if ATC instructions are unclear.
+14 CFR 91.117,Aircraft Speed,Pilots must manage airspeed and execute safe go-arounds.
+14 CFR 91.129,Operations in Class D Airspace,Pilots must have situational awareness and comply with airport signage and controller instructions
+14 CFR 121.587,Operations at High-Density Airports,Unstabilized approaches must be corrected or a go-around executed.
+14 CFR 91.113,Right-of-Way Rules,Pilots must maintain situational awareness and communicate at non-towered airports.
+14 CFR 91.111,Operating Near Other Aircraft,Pilots must not operate aircraft too closely unless in formation flight.
+14 CFR 91.221,Traffic Collision Avoidance System (TCAS),Pilots must follow TCAS advisories to prevent mid-air collisions.
+14 CFR 121.311,"Seats, Safety Belts, and Harnesses",Aircraft must have sufficient safety restraints for flight attendants.
+14 CFR 43.12,Maintenance Records,Aircraft maintenance personnel must ensure proper documentation and verification.
+14 CFR 91.123,Compliance with ATC Clearances,Pilots must adhere to speed restrictions as specified in SIDs.
+14 CFR 91.113,Right-of-Way Rules,Pilots must follow proper separation procedures in traffic patterns.
+14 CFR 91.123,Compliance with ATC Clearances,ATC facilities should conduct maintenance in low-traffic periods to maintain safety.
+49 CFR 175.30,Accepting and Inspecting Hazardous Materials,"Air carriers must ensure hazardous materials are properly classified, packaged, and documented before transport."
+14 CFR 121.575,Alcohol and Intoxicating Liquor,Crews must ensure the aircraft environment is safe and free from toxic fumes that could impair crew and passengers.
+14 CFR 121.305,Flight and Navigational Equipment,Oxygen systems must be fully functional and regularly inspected for airworthiness.
+14 CFR 91.7,Civil Aircraft Airworthiness,Pilots must ensure their aircraft is airworthy before flight and take appropriate emergency actions during power loss.
+14 CFR 91.123,Compliance with ATC Clearances,Controllers and pilots must follow proper routing and radar coverage protocols.
+14 CFR 91.225,Automatic Dependent Surveillance-Broadcast (ADS-B) Out Performance Requirements,ATC must ensure SUA status is properly communicated to avoid airspace violations.
+14 CFR 91.175,Takeoff and Landing under IFR,Pilots must ensure correct altitudes are followed to avoid terrain hazards.
+14 CFR 107.65,Aeronautical Knowledge Recency,UAS pilots must complete recurrent training to maintain their Part 107 certification.
+14 CFR 121.703,Maintenance: Service Difficulty Reports,ETOPS aircraft must be inspected thoroughly to meet extended overwater flight safety requirements.
+14 CFR 121.219,Ventilation,Aircraft ventilation systems must prevent contamination and provide a safe breathing environment.
+14 CFR 121.343,Flight Recorders and Instruments,Critical aircraft systems must function properly to ensure flight safety.
+14 CFR 139.311,"Pavement Markings, Signs, and Lighting",Airports must ensure clear and accurate taxiway and runway markings.
+14 CFR 91.123,Compliance with ATC Clearances,Pilots must ensure FMS entries match ATC clearances to prevent navigation errors.
+14 CFR 91.113,Right-of-Way Rules,Pilots must follow ATC instructions and maintain situational awareness to avoid conflicts.
+14 CFR 121.629,Operation in Icing Conditions,Aircraft anti-ice and de-ice systems must be operational for flight safety.
+49 CFR 175.33,Notification to Pilot in Command,Pilots must receive a final notification document for hazardous materials before departure.
+14 CFR 91.177,Minimum Altitudes for IFR Operations,ATC must not assign altitudes below safe minimum vectoring levels.
+14 CFR 91.123,Compliance with ATC Clearances,ATC must ensure safe separation between landing and departing aircraft to prevent jet blast hazards.
+14 CFR 91.123,Compliance with ATC Clearances,ATC must issue clear and unambiguous altitude instructions.
+14 CFR 91.123,Compliance with ATC Clearances,Controllers must ensure accurate identification and sequencing of aircraft in the pattern.
+49 CFR 175.30,Accepting and Inspecting Hazardous Materials,"Air carriers must ensure hazardous materials are properly classified, packaged, and documented before transport."
+14 CFR 121.575,Alcohol and Intoxicating Liquor,Crews must ensure the aircraft environment is safe and free from toxic fumes that could impair crew and passengers.
+14 CFR 121.305,Flight and Navigational Equipment,Oxygen systems must be fully functional and regularly inspected for airworthiness.
+14 CFR 91.7,Civil Aircraft Airworthiness,Pilots must ensure their aircraft is airworthy before flight and take appropriate emergency actions during power loss.
+14 CFR 91.123,Compliance with ATC Clearances,Controllers and pilots must follow proper routing and radar coverage protocols.
+14 CFR 91.225,Automatic Dependent Surveillance-Broadcast (ADS-B) Out Performance Requirements,ATC must ensure SUA status is properly communicated to avoid airspace violations.
+14 CFR 91.175,Takeoff and Landing under IFR,Pilots must ensure correct altitudes are followed to avoid terrain hazards.
+14 CFR 107.65,Aeronautical Knowledge Recency,UAS pilots must complete recurrent training to maintain their Part 107 certification.
+14 CFR 121.703,Maintenance: Service Difficulty Reports,ETOPS aircraft must be inspected thoroughly to meet extended overwater flight safety requirements.
+14 CFR 121.219,Ventilation,Aircraft ventilation systems must prevent contamination and provide a safe breathing environment.
+14 CFR 121.343,Flight Recorders and Instruments,Critical aircraft systems must function properly to ensure flight safety.
+14 CFR 139.311,"Pavement Markings, Signs, and Lighting",Airports must ensure clear and accurate taxiway and runway markings.
+14 CFR 91.123,Compliance with ATC Clearances,Pilots must ensure FMS entries match ATC clearances to prevent navigation errors.
+14 CFR 91.113,Right-of-Way Rules,Pilots must follow ATC instructions and maintain situational awareness to avoid conflicts.
+14 CFR 121.629,Operation in Icing Conditions,Aircraft anti-ice and de-ice systems must be operational for flight safety.
+49 CFR 175.33,Notification to Pilot in Command,Pilots must receive a final notification document for hazardous materials before departure.
+14 CFR 91.177,Minimum Altitudes for IFR Operations,ATC must not assign altitudes below safe minimum vectoring levels.
+14 CFR 91.123,Compliance with ATC Clearances,ATC must ensure safe separation between landing and departing aircraft to prevent jet blast hazards.
+14 CFR 91.123,Compliance with ATC Clearances,ATC must issue clear and unambiguous altitude instructions.
+14 CFR 91.123,Compliance with ATC Clearances,Controllers must ensure accurate identification and sequencing of aircraft in the pattern.
+14 CFR 121.195,Landing Limitations: Alternate Airports,Aircraft must not depart overweight for conditions; crew must ensure compliance with weight limits.
+14 CFR 91.13(a),Careless or Reckless Operation,Operations must not endanger life or property.
+14 CFR 121.703,Maintenance: Service Difficulty Reports,"Repaired components must function as intended, ensuring no safety compromise."
+14 CFR 91.103,Preflight Action,Pilots must conduct proper briefings to avoid operational errors.
+14 CFR 121.310,Emergency Exit Requirements,Seats must not obstruct emergency exits during flight.
+14 CFR 121.557,Emergency Authority of Pilot in Command,Pilot may deviate from rules to the extent necessary to meet that emergency.
+14 CFR 91.7,Civil Aircraft Airworthiness,Aircraft must be airworthy before flight.
+14 CFR 121.219,Ventilation,Aircraft must provide adequate ventilation and be free of harmful fumes.
+14 CFR 91.13(a),Careless or Reckless Operation,Operations must not be conducted in a careless or reckless manner.
+14 CFR 91.205,Instrument and Equipment Requirements,Aircraft must have functional landing gear indicators.
+14 CFR 91.123,Compliance with ATC Clearances,ATC must ensure separation and issue clearances appropriately.
+14 CFR 121.703,Maintenance: Service Difficulty Reports,All maintenance issues must be reported and addressed to maintain safety.
+14 CFR 121.578,Prohibition on Interference with Crew,Aircraft must not operate in a manner that compromises crew health.
+14 CFR 91.7,Civil Aircraft Airworthiness,Aircraft must be airworthy before flight.
+14 CFR 91.123,Compliance with ATC Clearances,Pilots and ATC must ensure adherence to clearances for safe operation.
+14 CFR 91.123,Compliance with ATC Clearances,ATC and pilots must follow charted procedures and clearances.
+14 CFR 43.13,Performance Rules (General Maintenance),Maintenance must be conducted correctly and thoroughly.
+14 CFR 91.13(a),Careless or Reckless Operation,Pilots must not operate recklessly; safety warnings must be heeded.
+14 CFR 121.557,Emergency Authority of Pilot in Command,Pilots have the authority to declare emergencies and take necessary actions.
+"14 CFR § 91.205, 14 CFR § 91.225",Required Equipment for Aircraft and ADS-B Out Requirements,Aircraft must have operable navigation lights for night operations and ADS-B Out equipment when operating in controlled airspace. Failure to maintain these systems in operable condition is non-compliant.
+14 CFR § 91.13,Careless or Reckless Operation,Operating an aircraft in a careless or reckless manner that endangers life or property is prohibited. Landing on a frozen lake without ensuring surface safety could be considered reckless.
+14 CFR § 91.103,Preflight Action,"Pilots must familiarize themselves with all available information concerning a flight, including taxiway layouts. Taking the wrong taxiway indicates a potential failure in preflight planning or situational awareness."
+14 CFR § 43.7,Maintenance Performed by Unqualified Personnel,Only qualified individuals may perform and approve maintenance. A supervisor signing off work without proper qualifications violates this regulation.
+14 CFR § 91.13,Careless or Reckless Operation,"A hard landing resulting in propeller damage could indicate improper operation of the aircraft, potentially violating this regulation."
+14 CFR § 91.113,Right-of-Way Rules,Pilots must maintain vigilance to avoid collisions. A near mid-air collision (NMAC) in the traffic pattern suggests a failure to adhere to right-of-way rules.
+14 CFR § 91.185,IFR Operations: Two-Way Radio Communications Failure,Lost communication procedures must be followed during IFR operations. Repeated communication failures without proper resolution may indicate non-compliance.
+14 CFR § 121.135,Manual Requirements,Flight Attendant Manuals (FAOM) must be current and comply with FARs. Using a future-dated revision during a flight is non-compliant.
+14 CFR § 107.23,Operation of Small Unmanned Aircraft in Controlled Airspace,UAS pilots must coordinate with ATC and ensure safe operations near airports. Concerns raised by a helicopter company suggest potential non-compliance with safety protocols.
+14 CFR § 91.103,Preflight Action,Pilots must ensure proper alignment with the correct airport during approach. Misalignment indicates a failure in preflight planning or situational awareness.
+14 CFR § 121.363,Maintenance and Preventive Maintenance Program,Flight crews must not accept aircraft that are not in compliance with the MEL. Feeling pressured to accept a non-compliant aircraft violates this regulation.
+14 CFR § 91.13,Careless or Reckless Operation,A loss of control during landing resulting in a runway excursion could indicate improper operation of the aircraft.
+14 CFR § 91.129,Operations in Class D Airspace,Pilots must maintain communication with ATC. Frequency bleed-over and difficulty hearing transmissions may indicate non-compliance with communication requirements.
+14 CFR § 91.7,Civil Aircraft Airworthiness,Aircraft must be in an airworthy condition before flight. Failure to notice static ports covered with tape during a walk-around inspection violates this regulation.
+14 CFR § 121.367,Maintenance and Preventive Maintenance Training Program,Only qualified technicians may perform ETOPS work. Assigning unqualified personnel violates this regulation.
+14 CFR § 91.13,Careless or Reckless Operation,"Track deviations due to high workload and equipment failure could indicate improper management of the situation, potentially violating this regulation."
+14 CFR § 91.131,Operations in Class B Airspace,Pilots must obtain ATC clearance to operate in Class B airspace. A lack of support from ATC leading to a potential violation suggests non-compliance.
+14 CFR § 91.113,Right-of-way rules: Except water operations,This regulation outlines the right-of-way rules for aircraft to prevent collisions. Pilots must adhere to these rules to avoid NMAC situations.
+14 CFR § 91.123,Compliance with ATC clearances and instructions,Pilots are required to comply with Air Traffic Control (ATC) clearances and instructions. Deviating from assigned clearances can lead to safety incidents.
+14 CFR § 91.129,Operations in Class D airspace,This regulation mandates that pilots must establish and maintain two-way radio communications with the control tower and receive a landing clearance before landing at airports within Class D airspace.
+14 CFR § 91.13,Careless or reckless operation,Pilots must not operate an aircraft in a careless or reckless manner that endangers the life or property of others. Proper communication and situational awareness are crucial.
+49 CFR § 175.30,Accepting and inspecting shipments,"This regulation requires operators to ensure that hazardous materials are properly prepared, documented, and loaded in accordance with regulations before transporting them by air."
+14 CFR § 43.13,Performance rules (general),"Maintenance personnel must perform maintenance, alterations, or preventive maintenance in accordance with applicable standards to ensure the aircraft's safety and airworthiness."
+14 CFR § 91.135,Operations in Class A airspace,Operations in Class A airspace require pilots to conduct flights under Instrument Flight Rules (IFR) and receive an appropriate ATC clearance prior to entry.

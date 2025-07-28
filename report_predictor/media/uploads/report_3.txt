@@ -1,0 +1,12 @@
+Report Metadata:
+Report ID: 90123
+Aircraft Registration Number: N90123E
+Aircraft Model: Bombardier CRJ900
+Operator: AeroExpress
+Date of Report: 27/01/2025
+Flight Hours Since Last Inspection: 300
+Maintenance Type: Major
+
+Maintenance Report Summary (Input for Compliance Model):
+
+Summary: The aircraft underwent a major inspection focusing on the flight control surfaces and cabin pressurization system. Excessive wear was found on the elevator control cables, which were promptly replaced. Additionally, a minor air leak was detected in the pressurization system, traced to a faulty valve. The valve was replaced, and the system was retested to ensure proper cabin pressure maintenance. After all repairs, the aircraft successfully completed a series of operational tests and was cleared for service.

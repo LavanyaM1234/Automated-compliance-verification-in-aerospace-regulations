@@ -1,0 +1,12 @@
+Report Metadata:
+
+Report ID: 67890
+Aircraft Registration Number: N67890B
+Aircraft Model: Airbus A320
+Operator: AirGlobal
+Date of Report: 30/01/2025
+Flight Hours Since Last Inspection: 200
+Maintenance Type: Major
+Maintenance Report Summary (Input for Compliance Model):
+
+Summary: The aircraft underwent a major inspection, focusing on the landing gear and avionics systems. During inspection, the left landing gear was found to have excessive wear, and a malfunction was detected in the autopilot system. The left landing gear was replaced, and the autopilot system was recalibrated. After the repairs, the aircraft was thoroughly tested and cleared for flight.
